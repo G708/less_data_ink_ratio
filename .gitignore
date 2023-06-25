@@ -1,3 +1,7 @@
+# custam
+less_data_ink_ratio.py
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
