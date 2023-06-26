@@ -8,3 +8,33 @@ Python script to quantify the Data Ink Ratio in your plot
 ここでは、作成したグラフについて、データインク比を定量するスクリプトを作成する。
 
 # Ugase
+
+## Install
+
+```
+# Install from GitHub
+pip install git+https://github.com/G708/less_data_ink_ratio
+```
+
+## Requirements
+- numPy
+- matplotlib
+- opencv-python
+
+必要な環境はDockerfileによってもまとめている。
+```
+# Dockerから取得する
+docker pull g708/less_data_ink_ratio
+
+docker build -t less_data_ink_ratio .
+docker run -it --rm -v $(pwd):/work less_data_ink_ratio
+```
+
+## Run script
+```
+python less_data_ink_ratio.py --plot <input_plot_script_file>
+```
+
+
+
+
