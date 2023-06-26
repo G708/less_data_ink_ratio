@@ -33,4 +33,5 @@ for p in ax.patches:
 
 plt.tick_params(labelbottom=True, labelleft=False, labelright=False, labeltop=False, bottom=True, left=False, right=False, top=False)
 
-plt.savefig('plot.png')
+plt.gca().axis('off')
+plt.savefig('data_ink.png')
