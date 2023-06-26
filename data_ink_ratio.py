@@ -25,7 +25,7 @@ parser.add_argument('--plot', type=str, default='plot.py', help='plotを作成�
 parser.add_argument('--threshold', type=int, default=255, help='plot全体の色の濃さの閾値')
 parser.add_argument('-m','--method', choices=['bgr2gray','hsv'], default='hsv', help='plot全体の色の濃さを定量する方法')
 # parser.add_argument('--crop', action='store_true', help='画像の余白が白い場合に、余白を削除するかどうか')
-parser.add_argument('-o', '--output', type=str, default='output.png', help='plot全体の色の濃さを定量した画像ファイル名')
+# parser.add_argument('-o', '--output', type=str, default='output.png', help='plot全体の色の濃さを定量した画像ファイル名')
 args = parser.parse_args()
 
 # plot image from input python file

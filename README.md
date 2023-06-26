@@ -37,7 +37,7 @@ docker pull g708/less_data_ink_ratio
 python3 data_ink_ratio.py --plot example_plot.py	
 
 python3 data_ink_ratio.py -h
-# usage: data_ink_ratio.py [-h] [--plot PLOT] [--threshold THRESHOLD] [-m {bgr2gray,hsv}] [-o OUTPUT]
+# usage: data_ink_ratio.py [-h] [--plot PLOT] [--threshold THRESHOLD] [-m {bgr2gray,hsv}]
 
 # options:
 #   -h, --help            show this help message and exit
@@ -48,8 +48,7 @@ python3 data_ink_ratio.py -h
 #   -m {bgr2gray,hsv}, --method {bgr2gray,hsv}
 #                         plot全体の色の濃さを定量する方法
 # 						デフォルトはhsv
-#   -o OUTPUT, --output OUTPUT
-#                         plot全体の色の濃さを定量した画像ファイル名
+
 
 ```
 
