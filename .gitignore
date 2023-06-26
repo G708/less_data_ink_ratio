@@ -1,6 +1,7 @@
 # custam
 less_data_ink_ratio.py
 .vscode
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
